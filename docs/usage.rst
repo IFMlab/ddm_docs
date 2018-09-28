@@ -20,6 +20,8 @@ In your terminal, use the command line
     $ ddm --config your_config_file --complex pdb_complex
 
 
+A full example of configuration file can be found in the sources: ddm/example.conf. This example contains all possible parameters with their default values.
+
 Example for a configuration file::
 
     [main]
