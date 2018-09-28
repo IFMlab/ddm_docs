@@ -10,8 +10,8 @@ Double Decoupling Method (DDM)
         :target: https://travis-ci.org/job/ddm/
         :alt: Build status
 
-.. image:: https://readthedocs.org/projects/ddm/badge/?version=latest
-        :target: https://ddm.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/ddm-docs/badge/?version=latest
+        :target: https://ddm-docs.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
@@ -24,15 +24,6 @@ ddm allows binding free energy for a complex, using the double decoupling method
 
 What does ddm ?
 ===============
-
-.. _diagram:
-
-DDM workflow
-------------
-
-.. image:: _images/ddm_dia.png
-        :width: 600
-        :alt: diagram
 
 Modeling
 --------
