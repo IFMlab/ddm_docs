@@ -61,6 +61,19 @@ More options can be added:
 - **ff_parameters**: Force field parameters for gromacs. Default is charmm36-jul2017.ff.
 - **temperature**: Set the temperature for the experiment. Default is 300.
 
+[monitor-CVs]:
+
+- **rr**: constrain on distance r.
+- **tt**: constrain on angle theta.
+- **phi**: constrain on dihedral phi.
+- **TT\_**: constrain on angle THETA.
+- **PHI\_**: constrain on dihedral PHI.
+- **PSI**: constrain on dihedral PSI.
+
+[confine-bound]:
+
+- **rms**: constrain on rms.
+
 [vba-bound]:
 
 - **windows**: Factors to apply on constrain consecutively for dG vba-bound calculation. Default is 0.001, 0.01, 0.1, 0.2, 0.5, 1.0.
