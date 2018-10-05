@@ -49,8 +49,8 @@ This example contains the required parameters.
 
 - Host code (**host**) and Guest code (**guest**) are, respectively, the code of the protein and the code of the ligand in the pdb_complex file.
 - Destination (**dest**) is the directory where outputs should be written. Provide the absolute path.
-- Anchor points are the atoms selected to monitors the movements of the ligand in respect of the receptor. See the section :ref:`pick_reference` for more information on how to pick them.
-    If you don't specify those value, the program will stop when they are required. You can then look at the REFERENCE.pdb to pick them, add the values to your config file and relaunch the program using the same command.
+- Anchor points are the atoms selected to monitors the movements of the ligand in respect of the receptor. See the section :ref:`pick_reference` for more information on how to pick them. (If you don't specify those values, the program will stop when they are required. You can then look at the REFERENCE.pdb to pick them, add the values to your config file and relaunch the program using the same command.)
+    
 - **symmetry_numbers** for the ligand, the receptor and the complex to compute the correction due to the symmetry. If those numbers are not provided, the symmetry correction is not computed, then is equal to 0.
 
 
@@ -60,6 +60,19 @@ More options can be added:
 
 - **ff_parameters**: Force field parameters for gromacs. Default is charmm36-jul2017.ff.
 - **temperature**: Set the temperature for the experiment. Default is 300.
+
+[monitor-CVs]:
+
+- **rr**: constrain on distance r.
+- **tt**: constrain on angle theta.
+- **phi**: constrain on dihedral phi.
+- **TT\_**: constrain on angle THETA.
+- **PHI\_**: constrain on dihedral PHI.
+- **PSI**: constrain on dihedral PSI.
+
+[confine-bound]:
+
+- **rms**: constrain on rms.
 
 [vba-bound]:
 
